@@ -2,10 +2,16 @@
 
 class About extends Controller{
     public function index() {
-        $this->view('About/index');
+        $data['title'] = "About";
+        $this->view('templates/header', $data);
+        $this->view('About/index', $data);
+        $this->view('templates/footer', $data);
     }
-
+    
     public function aboutme() {
-        $this->view('About/aboutme');
+        $data['title'] = "About me";
+        $this->view('templates/header', $data);
+        $this->view('About/aboutme', $data);
+        $this->view('templates/footer', $data);
     }
 }

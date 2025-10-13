@@ -2,6 +2,9 @@
 
 class Home extends Controller {
     public function index() {
-        $this->view('Home/index');
+        $data['title'] = "Home";
+        $this->view('templates/header', $data);
+        $this->view('Home/index', $data);
+        $this->view('templates/footer', $data);
     }
 }
