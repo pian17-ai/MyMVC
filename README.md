@@ -22,17 +22,42 @@ MyMVC/
 │
 ├── app/
 │ ├── controllers/
+│ │ ├── AboutController.php
 │ │ └── HomeController.php
-│ ├── models/
+│ │
+│ ├── core/
+│ │ ├── App.php
+│ │ ├── Constants.php
+│ │ └── Controller.php
+│ │
+│ ├── helpers/
+│ │ └── php.ini
+│ │
 │ └── views/
-│ ├── templates/
-│ │ ├── header.php
-│ │ └── footer.php
-│ └── home/
+│   ├── About/
+│   │ └── aboutme.php
+│   │
+│   ├── Home/
+│   │ └── index.php
+│   │
+│   └── templates/
+│     ├── footer.php
+│     └── header.php
+│
+├── assets/
+│
+├── public/
+│ ├── css/
+│ ├── js/
+│ ├── img/
+│ │ └── preview.png
+│ │
+│ ├── .htaccess
 │ └── index.php
 │
-└── public/
-└── index.php
+├── .htaccess
+├── init.php
+└── README.md
 ```
 
 ---
