@@ -37,4 +37,8 @@ MyMVC/
 
 ---
 
+## Home Page
+![Preview](assets/home.png)
+---
+
 # MODELS and DATABASE coming soon ...
