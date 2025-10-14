@@ -1,41 +1,41 @@
 # 🧩 PHP MVC Bootstrap Template
 
-Template dasar untuk membuat aplikasi **PHP MVC** dengan tampilan modern dan responsive menggunakan **Bootstrap 5**.  
-Cocok untuk belajar, membuat project kecil, atau dijadikan base framework pribadi.
+A simple and modern **PHP MVC template** built with **pure Bootstrap 5** — clean, responsive, and lightweight.  
+Perfect for learning, building small projects, or using as a personal starter framework.
 
 ---
 
-## 🚀 Fitur Utama
+## 🚀 Features
 
-- 🔹 Arsitektur **MVC (Model - View - Controller)**
-- 🔹 Tampilan **responsive & modern** dengan **Bootstrap 5**
-- 🔹 Struktur folder rapi dan mudah dikembangkan
-- 🔹 Tanpa tambahan CSS — hanya **pure Bootstrap**
-- 🔹 Siap digunakan untuk routing atau integrasi database
+- 🔹 **MVC architecture** (Model - View - Controller)
+- 🔹 **Fully responsive** layout using Bootstrap 5
+- 🔹 **No custom CSS** — pure Bootstrap only
+- 🔹 Simple, clean, and easy to extend
+- 🔹 Ready for routing and database integration
 
 ---
 
-## 🗂️ Struktur Folder
+## 🗂️ Folder Structure
 
-MyMVC/
+project/
 │
 ├── app/
 │ ├── controllers/
 │ │ └── HomeController.php
 │ ├── models/
 │ └── views/
-│ ├── templates/
+│ ├── layouts/
 │ │ ├── header.php
 │ │ └── footer.php
-│ └── Home/
-│ └── init.php.php
+│ └── home/
+│ └── index.php
 │
 └── public/
 └── index.php
 
-## ⚙️ Cara Menjalankan
+---
 
-1. **Clone repository ini**
-   ```bash
-   git clone https://github.com/username/php-mvc-bootstrap.git
-   ```
+## ⚙️ How to Run
+
+1. **Clone the repository**
+
