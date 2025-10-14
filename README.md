@@ -17,21 +17,25 @@ Cocok untuk belajar, membuat project kecil, atau dijadikan base framework pribad
 
 ## 🗂️ Struktur Folder
 
-project/
+MyMVC/
 │
 ├── app/
 │ ├── controllers/
 │ │ └── HomeController.php
 │ ├── models/
 │ └── views/
-│ ├── layouts/
+│ ├── templates/
 │ │ ├── header.php
 │ │ └── footer.php
-│ └── home/
-│ └── index.php
+│ └── Home/
+│ └── init.php.php
 │
 └── public/
 └── index.php
 
+## ⚙️ Cara Menjalankan
 
-
+1. **Clone repository ini**
+   ```bash
+   git clone https://github.com/username/php-mvc-bootstrap.git
+   ```
