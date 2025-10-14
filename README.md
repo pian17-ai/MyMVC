@@ -33,18 +33,23 @@ MyMVC/
 │ ├── helpers/
 │ │ └── php.ini
 │ │
-│ └── views/
-│   ├── About/
-│   │ └── aboutme.php
-│   │
-│   ├── Home/
-│   │ └── index.php
-│   │
-│   └── templates/
-│     ├── footer.php
-│     └── header.php
-│
+│ ├── views/
+│ │ ├── About/
+│ │ │ 	├── aboutme.php
+│ │ │   └── index.php
+│ │ │
+│ │ ├── Home/
+│ │ │ └── index.php
+│ │ │
+│ │ └── templates/
+│ │   ├── footer.php
+│ │   └── header.php
+│ │
+│ ├── .htaccess
+│ └── init.php
+│ 
 ├── assets/
+│ └── home.png
 │
 ├── public/
 │ ├── css/
@@ -55,8 +60,6 @@ MyMVC/
 │ ├── .htaccess
 │ └── index.php
 │
-├── .htaccess
-├── init.php
 └── README.md
 ```
 
