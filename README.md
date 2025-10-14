@@ -18,14 +18,14 @@ Perfect for learning, building small projects, or using as a personal starter fr
 ## 🗂️ Folder Structure
 
 ```text
-project/
+MyMVC/
 │
 ├── app/
 │ ├── controllers/
 │ │ └── HomeController.php
 │ ├── models/
 │ └── views/
-│ ├── layouts/
+│ ├── templates/
 │ │ ├── header.php
 │ │ └── footer.php
 │ └── home/
@@ -37,7 +37,4 @@ project/
 
 ---
 
-## ⚙️ How to Run
-
-1. **Clone the repository**
-
+# MODELS and DATABASE coming soon ...
