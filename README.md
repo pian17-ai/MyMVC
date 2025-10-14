@@ -17,6 +17,7 @@ Perfect for learning, building small projects, or using as a personal starter fr
 
 ## 🗂️ Folder Structure
 
+```text
 project/
 │
 ├── app/
@@ -32,6 +33,7 @@ project/
 │
 └── public/
 └── index.php
+```
 
 ---
 
